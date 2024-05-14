@@ -1,0 +1,74 @@
+.inputs{
+    display: flex;
+    flex-direction: column;
+    gap:1.2em;
+}
+
+.start-date-container, .end-date-container, .working-hours-for-month-container{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    text-align: center;
+    font-size: 2em;
+    color:whitesmoke;
+    filter: brightness(130%);
+}
+
+input[type*="date"]{
+    padding: 0.6em;
+    font-size: 0.8em;
+    background: #8C5D35;
+    background: linear-gradient(135deg, #8C5D35, #C72BAC);
+    color:yellow;
+}
+
+input[type*="number"]{
+    font: 25px/1.5em "Poetsen One", sans-serif;
+    background: #2FEF0A;
+    background: linear-gradient(135deg, #2FEF0A, #C7722C);
+    color:red;
+    filter: brightness(130%);
+}
+
+.submit-container{
+    margin-top: 1em;
+}
+
+#submit{
+    background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
+    border: 0;
+    border-radius: 12px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    width: 150px;
+    font-weight: 500;
+    line-height: 2.5;
+    outline: transparent;
+    padding: 0 1rem;
+    text-align: center;
+    text-decoration: none;
+    transition: box-shadow .2s ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+}
+
+#submit:not([disabled]):focus{
+    box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+#submit:not([disabled]):hover{
+    box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+.missing-value{
+    box-shadow: 6px 7px 20px 5px rgba(237,11,11,0.88);
+    -webkit-box-shadow: 6px 7px 20px 5px rgba(237,11,11,0.88);
+    -moz-box-shadow: 6px 7px 20px 5px rgba(237,11,11,0.88);
+}
+
+

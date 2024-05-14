@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/site-working-days-page.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- this is the background animation -->
+    <div class="background">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <!-- Site content begins from here -->
+        <div class="inputs">
+            <div class="start-date-container">
+                <label>Начална Дата</label>
+                <input type="date" name="" id="start-date" required>
+            </div>
+            
+            <div class="end-date-container">
+                <label>Крайна Дата</label>
+                <input type="date" name="" id="end-date" required>
+            </div>
+            
+            <div class="working-hours-for-month-container">
+                <label>Работни часове</label>
+                <input type="number" name="" id="hours" min="1" max="300">
+            </div>
+            
+        </div>
+        
+        <div class="submit-container">
+            <button id="submit" onclick="CheckData()">Submit</button>
+        </div>
+        
+        <div class="result">
+            
+        </div>
+        
+        <div class="working-days-list" style="display: none;">
+            
+        </div>
+    
+</body>
+    <script src="../scripts/script.js"></script>
+</html>
