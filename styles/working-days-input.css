@@ -20,6 +20,7 @@ input[type*="date"]{
     background: #8C5D35;
     background: linear-gradient(135deg, #8C5D35, #C72BAC);
     color:yellow;
+    border-radius: 0.3em;
 }
 
 input[type*="number"]{
@@ -28,6 +29,7 @@ input[type*="number"]{
     background: linear-gradient(135deg, #2FEF0A, #C7722C);
     color:red;
     filter: brightness(130%);
+    border-radius: 0.3em;
 }
 
 .submit-container{
@@ -69,6 +71,12 @@ input[type*="number"]{
     box-shadow: 6px 7px 20px 5px rgba(237,11,11,0.88);
     -webkit-box-shadow: 6px 7px 20px 5px rgba(237,11,11,0.88);
     -moz-box-shadow: 6px 7px 20px 5px rgba(237,11,11,0.88);
+}
+
+.inputs i {
+    margin-right: 0.6em;
+    color:yellow;
+    filter: brightness(200%);
 }
 
 

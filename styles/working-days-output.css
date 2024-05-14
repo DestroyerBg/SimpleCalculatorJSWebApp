@@ -1,0 +1,59 @@
+.outputs{
+    display: flex;
+    margin-top: 1.6em;
+}
+
+.result{
+    background: #723B75;
+    background: linear-gradient(135deg, #723B75, #FE4C37);
+    /* padding: 1em 3em; */
+    padding: 1em 1.6em;
+    line-height: 1em;
+    font-size: 1.8em;
+    font-weight: 800px;
+    font-family: "Poetsen One", sans-serif;
+    border-radius: 0.6em;
+    margin-top: 1.1em;
+    color:yellow;
+    max-width: 15%;
+    text-wrap: wrap;
+}
+.working-days-title{
+    margin-top: 1.1em;
+    background: #723B75;
+    background: linear-gradient(135deg, #723B75, #FE4C37);
+    padding: 0.3em 0.5em;
+    text-wrap: wrap;
+    max-width: 15%;
+    border-radius: 0.6em;
+    font-size: 2.0em;
+    line-height: 1.1em;
+    text-align: center;
+    color:yellow;
+    filter: brightness(130%);
+}
+
+.working-days-list, .formulas-list{
+    background: #723B75;
+    background: linear-gradient(135deg, #723B75, #FE4C37);
+    padding: 1em 3em;
+    font-size: 1.6em;
+    font-family: "Poetsen One", sans-serif;
+    border-radius: 0.6em;
+    text-align: center;
+    color: greenyellow;
+    filter: brightness(130%);
+}
+
+.working-days-list ul li {
+    margin-bottom: 0.4em;
+}
+
+.formulas-list{
+    margin-top: 1.1em;
+}
+
+.formulas-list li {
+    margin-bottom: 0.4em;
+}
+

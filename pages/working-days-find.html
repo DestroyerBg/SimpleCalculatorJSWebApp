@@ -27,36 +27,41 @@
         <span></span>
     </div>
     <!-- Site content begins from here -->
-        <div class="inputs">
-            <div class="start-date-container">
-                <label>Начална Дата</label>
-                <input type="date" name="" id="start-date" required>
-            </div>
-            
-            <div class="end-date-container">
-                <label>Крайна Дата</label>
-                <input type="date" name="" id="end-date" required>
-            </div>
-            
-            <div class="working-hours-for-month-container">
-                <label>Работни часове</label>
-                <input type="number" name="" id="hours" min="1" max="300">
-            </div>
-            
+    <div class="inputs">
+        <div class="start-date-container">
+            <label><i class="fa-solid fa-calendar-days "></i>Начална Дата</label>
+            <input type="date" name="" id="start-date" required>
         </div>
         
-        <div class="submit-container">
-            <button id="submit" onclick="CheckData()">Submit</button>
+        <div class="end-date-container">
+            <label><i class="fa-solid fa-calendar-days"></i>Крайна Дата</label>
+            <input type="date" name="" id="end-date" required>
         </div>
         
-        <div class="result">
-            
+        <div class="working-hours-for-month-container">
+            <label><i class="fa-solid fa-clock"></i>Работни часове</label>
+            <input type="number" name="" id="hours" min="1" max="300">
         </div>
         
-        <div class="working-days-list" style="display: none;">
-            
-        </div>
+    </div>
     
+    <div class="submit-container">
+        <button id="submit" onclick="CheckData()">Submit</button>
+    </div>
+    
+    <div class="result" style="display: none;">
+        <p id="result-message"></p>
+    </div>
+    
+    <div class="formulas" style="display: none;">
+    </div>
+        <h2 class="working-days-title" style="display: none;">Списък с всички работни дни за дадения период:</h2>
+        <div class="outputs">
+            
+            <div class="working-days-list" style="display: none;">
+            </div>
+            
+        </div>
 </body>
-    <script src="../scripts/script.js"></script>
+<script src="../scripts/script.js"></script>
 </html>
