@@ -1,0 +1,50 @@
+.keys{
+    display: flex;
+    gap: 0.5em;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 35vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    font-size: 1.5em;
+}
+
+.numbers {
+    background: #EF397A;
+    background: radial-gradient(at center top, #EF397A, #F6055B);
+}
+
+
+.button:hover{
+    transition: all ease-in-out 0.5s;
+    transform: scale(1.1); 
+    filter: brightness(1.2);
+    cursor: pointer;
+}
+
+.math-operations{
+    background: #D68004;
+    background: linear-gradient(135deg, #D68004, #FDB600);
+}
+
+.back-to-null{
+    background: #E80202;
+    background: linear-gradient(180deg, #E80202, #F60404);
+}
+
+.back-to-null{
+    font-size: 20px;
+}
+
+
+.additional-functions{
+    background: #EC6603;
+    background: linear-gradient(180deg, #EC6603, #FC6B01);
+}

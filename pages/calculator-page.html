@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="../styles/calculator-page-styles/site-calculator-page.css">
+</head>
+<body>
+    <!-- this is the background animation -->
+    <div class="background">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+     </div>
+     <!-- Site content begins from here -->
+    <div class="container">
+        <div class="form">
+           <input type="text" id="result" readonly value="">
+        </div>
+        <div class="keys">
+            <button class = 'button back-to-null' onclick="clearData()">AC</button>
+            <button class = 'button numbers' onclick="addToDisplay(7)">7</button>
+            <button class = 'button numbers' onclick="addToDisplay(4)">4</button>
+            <button class = 'button numbers' onclick="addToDisplay(1)">1</button>
+            <button class = 'button additional-functions'><i class="fa-solid fa-rotate"></i></button>
+            <button class = 'button additional-functions'><i class="fa-solid fa-delete-left fa-sm"></i></button>
+            <button class = 'button numbers' onclick="addToDisplay(8)">8</button>
+            <button class = 'button numbers' onclick="addToDisplay(5)">5</button>
+            <button class = 'button numbers' onclick="addToDisplay(2)">2</button>
+            <button class = 'button numbers' onclick="addToDisplay(0)">0</button>
+            <button class = 'button math-operations' onclick="addToDisplay('%')">%</button>
+            <button class = 'button numbers' onclick="addToDisplay(9)">9</button>
+            <button class = 'button numbers' onclick="addToDisplay(6)">6</button>
+            <button class = 'button numbers' onclick="addToDisplay(3)">3</button>
+            <button class = 'button math-operations' onclick="addToDisplay('.')">.</button>
+            <button class = 'button math-operations' onclick="addToDisplay('/')">/</button>
+            <button class = 'button math-operations' onclick="addToDisplay('*')">*</button>
+            <button class = 'button math-operations' onclick="addToDisplay('+')">+</button>
+            <button class = 'button math-operations' onclick="addToDisplay('-')">-</button>
+            <button class = 'button math-operations' onclick="calculate()">=</button>
+        </div>
+    </div> 
+</body>
+<script src="../scripts/calculator-script.js"></script>
+</html>

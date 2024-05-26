@@ -1,0 +1,8 @@
+@import url('../general-styles/reset.css');
+@import url('../calculator-page-styles/calculator-typography.css');
+@import url('../calculator-page-styles/calculator-body.css');
+@import url('../general-styles/animation.css');
+@import url('../calculator-page-styles/calculator-main-container.css');
+@import url('../calculator-page-styles/calculator-result.css');
+@import url('../calculator-page-styles/calculator-keys.css');
+@import url('../calculator-page-styles/calculator-responsive.css');

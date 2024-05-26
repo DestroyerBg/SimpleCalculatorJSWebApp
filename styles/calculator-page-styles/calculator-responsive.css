@@ -1,0 +1,42 @@
+@media screen and (max-width: 600px) {
+    .container{
+        width: 65vw;
+        height: 55vh;
+    }
+    .button{
+        width: 45px;
+        height: 45px;
+    }
+    #result{
+        padding: 0.8em;
+    }
+}
+
+@media screen and (width > 600px) and (width <= 768px) {
+    .container{
+        width: 45vw;
+        height: 58vh;
+    }
+    .button{
+        width: 45px;
+        height: 45px;
+    }
+    #result{
+        padding: 0.8em;
+    }
+}
+
+
+@media screen and (width > 768px){
+    .container{
+        width: 18vw;
+        height: 58vh;
+    }
+    .button{
+        width: 45px;
+        height: 45px;
+    }
+    #result{
+        padding: 0.8em;
+    }
+}

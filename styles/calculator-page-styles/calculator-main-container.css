@@ -1,0 +1,14 @@
+.container{
+    border: 0.3px solid black;
+    padding: 1em;
+    min-height: 45vh;
+    border-radius: 1em;
+    -webkit-box-shadow: 3px 4px 27px 13px rgba(222,237,5,1);
+    -moz-box-shadow: 3px 4px 27px 13px rgba(222,237,5,1);
+    box-shadow: 3px 4px 27px 13px rgba(222,237,5,1);
+    backdrop-filter: blur(20px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 18vw;
+}

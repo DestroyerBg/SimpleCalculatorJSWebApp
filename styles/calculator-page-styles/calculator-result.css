@@ -1,0 +1,11 @@
+#result{
+    padding: 1em;
+    width: 99%;
+    align-self: center;
+    font-size: 2em;
+    background-color: transparent;
+    font-weight: bold;
+    cursor: default;
+    border: none;
+    color: yellow;
+}
