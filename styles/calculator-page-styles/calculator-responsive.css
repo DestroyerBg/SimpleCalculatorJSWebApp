@@ -27,16 +27,4 @@
 }
 
 
-@media screen and (width > 768px){
-    .container{
-        width: 18vw;
-        height: 58vh;
-    }
-    .button{
-        width: 50px;
-        height: 50px;
-    }
-    #result{
-        padding: 0.8em;
-    }
-}
+
