@@ -15,7 +15,7 @@
 @media screen and (width > 600px) and (width <= 768px) {
     .container{
         width: 45vw;
-        height: 58vh;
+        min-height: 58vh;
     }
     .button{
         width: 45px;
