@@ -26,5 +26,12 @@
     }
 }
 
+@media screen and (width >= 768px){
+    .container{
+        min-width: 45vw;
+        min-height: 58vh;
+    }
+}
+
 
 
