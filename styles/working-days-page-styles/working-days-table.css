@@ -1,0 +1,23 @@
+.days-table, .days-table th,.days-table td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 1.1em;
+    color:greenyellow;
+    font-weight: bold;
+}
+
+.days-table{
+    -webkit-box-shadow: -1px 2px 32px 4px rgba(244,252,0,1);
+    -moz-box-shadow: -1px 2px 32px 4px rgba(244,252,0,1);
+    box-shadow: -1px 2px 32px 4px rgba(244,252,0,1);
+    min-width: 40%;
+    min-height: 250px;
+    margin-top: 2em;
+    backdrop-filter: blur(50px);
+}
+
+.days-table th,.days-table td{
+    border: 2px solid black;
+    padding: 0.7em;
+}
